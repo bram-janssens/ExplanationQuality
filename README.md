@@ -31,3 +31,5 @@ for i in range(train.shape[0]):
 ```
 
 The individual explanations are stored in the uitkomsten object, which can be evaluated with the syntax used afterwards.
+
+As it is infeasible to permute empty texts (e.g., only contain visual keys) in a meaningful way (i.e., all permutations represent the same empty texts, generating no variability in x_lime and x_interpretable), these should be omitted or handled explicitely, as is done for observation 1629 in the COVID data set.
