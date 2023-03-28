@@ -4,7 +4,7 @@ This repository contains the implementation code for a study on explanation qual
 
 The methodology and results are currently under review at European Journal of Operational Research.
 
-The main analysis are in ´Transformers.ipynb´, ´LIME_Lean_Loop_Covid.ipynb´ and ´LIME_Lean_Loop_CovidDL.ipynb´. The permutations per observation are created in ´PermutationScriptTML.ipynb´ and ´ParallelCovid.py´ to save computational time, but can be conducted within the main analyses.
+The main analysis are in Transformers.ipynb, LIME_Lean_Loop_Covid.ipynb and LIME_Lean_Loop_CovidDL.ipynb. The permutations per observation are created in PermutationScriptTML.ipynb and ParallelCovid.py to save computational time, but can be conducted within the main analyses.
 
 Practitioners interested in using the methodology on other data sets should focus on the following for loop:
 
@@ -30,4 +30,4 @@ for i in range(train.shape[0]):
       uitkomsten.append(uitkomst)
 ```
 
-The individual explanations are stored in the ´uitkomsten´ object, which can be evaluated with the syntax used afterwards.
+The individual explanations are stored in the uitkomsten object, which can be evaluated with the syntax used afterwards.
