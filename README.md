@@ -45,7 +45,7 @@ As it is infeasible to permute empty texts (e.g., only contain visual keys) in a
 To facilitate easy reproduction, we added already folded data sets on rumor detection on COVID19 Tweets. Other relevant rumor detection sets can be found [here](https://data.mendeley.com/datasets/m7k4gsffry/1) and [here](https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078).
 
 
-We are glad to answer any potential questions. Please contact us through at bram.janssens@ugent.be
+We are glad to answer any potential questions. Please contact us via mail at bram.janssens@ugent.be
 
 ## References
 
